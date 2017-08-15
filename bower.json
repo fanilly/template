@@ -1,0 +1,19 @@
+{
+  "name": "hybrid_application",
+  "description": "hybrid application base of ionic",
+  "main": "dist/index.html",
+  "authors": [
+    "allenAugustine"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/library",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}

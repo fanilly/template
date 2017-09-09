@@ -5,6 +5,5 @@
   ```shell
     git clone git@github.com:fanilly/template.git;
     cd template;
-    npm install;
-    bower install;
+    npm start;
   ```

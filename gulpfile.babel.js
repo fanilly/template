@@ -14,9 +14,10 @@ import styles from './tasks/styles.js';
 import images from './tasks/images.js';
 import fonts from './tasks/fonts.js';
 import html from './tasks/html.js';
+import clean from './tasks/clean.js';
 
-gulp.task('serve', ['scripts',
-  'library', 'styles', 'images', 'fonts', 'html'
+gulp.task('serve', ['clean',
+  'scripts','library', 'styles', 'images', 'fonts', 'html'
 ], () => {
   browsersync.init({
     server: {
